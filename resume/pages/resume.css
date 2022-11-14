@@ -1,0 +1,115 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap");
+
+
+/* reset */
+* {
+    margin: 0;
+    padding: 1;
+    line-height: 1.2;
+    font-family: "Josefin Sans", Arial, sans-serif;
+    font-size: 2vh;
+  }
+body {
+    background-color: #F5A5A5;
+  }
+
+main {
+    margin-top: 2%; margin-left: 25%; margin-right: 25%;
+    padding: 1vh;
+
+  
+    border-radius: 25px;
+    border: 10px solid #ffffff;
+    background-color: #ffffff;
+}
+
+#body nav {
+    border: 5px solid #ffffff;
+    background-color: #ffffff;
+    text-align: center;
+  }
+  /* top links */
+  header {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  div.nav-name {
+    margin: 1em;
+  }
+  .first-name {
+    letter-spacing: 0.1em;
+  }
+  .first-name a {
+    color: black;
+    letter-spacing: 0.1em;
+  }
+  .navMenu {
+    text-align: right;
+    margin: 1em;
+  }
+  .navMenu li {
+    margin: 0.5em;
+    font-weight: bold;
+    display: inline;
+    list-style-type: none;
+  }
+  .navMenu li a {
+    color: Black;
+  }
+  
+  a:link {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+
+  /* body */
+ li,
+ul {
+  list-style-type: none;
+  padding-inline-start: 0px;
+  display: inline;
+}
+h1 {
+    text-align: center;
+    color: #463325;
+  
+    font-family: "Work Sans";
+    font-size: 5vh; 
+  }
+img {
+  width: 4vw;
+  height: auto;
+}
+#header-line {
+  padding: 2vh;
+}
+#profile-pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  min-width: 200px;
+  width: 45%;
+  border-radius: 100%;
+}
+.bio {
+  padding: 2vh;
+}
+
+.bio p {
+  padding-top: 2vh;
+}
+hr {
+  margin: 1vh;
+}
+body h2 {
+  text-align: center;
+}
+
+

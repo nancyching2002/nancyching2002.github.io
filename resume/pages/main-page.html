@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="Nancy Ching's Resume" content="html practice">
+		<title>Nancy Ching's Resume</title>
+		<link rel="stylesheet" type="text/css" href="resume.css">
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+                if ($(document).ready()) {
+                    $("#body").css("display", "none");
+                    $("#body").fadeIn(1500);
+                }
+            });
+
+        </script>
+
+    </head>
+    <!--top links to other profiles-->
+    <header>
+        <div class="nav-name">
+            <span class="first-name">NANCY CHING</a></span>
+          </div>
+          <div class="topLinks">
+            <nav>
+              <ul class="navMenu">
+                <li id="about"><a href="about-me-page.html">ABOUT</a></li>
+                <li id="linkedin"><a href="https://www.linkedin.com/in/nancy-ching" target="_blank">LINKEDIN</a></li>
+                <li id="resume"><a href="files/NancyChing_CV.pdf" target="_blank">RESUME</a></li>
+              </ul>
+            </nav>
+          </div>
+    </header>
+
+
+    <!--body-->
+    <body>
+        <main id="body" style="display:block">
+            <div>
+                <img id="profile-pic" alt="Profile Picture" src="images/profile.jpg">
+            </div>
+            <div id = "header-line">
+                <h1>Hi there,</h1>
+                <h1>I'm Nancy</h1>
+            </div>
+            <div class="bio">
+                <h2>A college student at American University,</h2>
+                <h2>studying Computer Science and Graphic Design</h2>
+            </div>
+
+            <!--links to other profiles-->
+            <hr>
+            <nav>
+                
+                <ul class="headerQuickInfo">
+                <li id="about-me"><a href="about-me-page.html" target="_blank"><img alt="About Me" src="images/about-me-icon.png"></a></li>
+                <li id="linkedin"><a href="https://www.linkedin.com/in/nancy-ching" target="_blank"><img alt="Linkedin" src="images/linkedin-icon.png"></a></li>
+                <li id="resume"><a href="files/NancyChing_CV.pdf" target="_blank"><img alt="Resume" src="images/resume-icon.png"></a></li>
+                </ul>
+            </nav>
+            <hr>
+        </main>
+    </body>
+</html>
+
+
